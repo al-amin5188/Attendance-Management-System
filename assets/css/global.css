@@ -1,0 +1,27 @@
+/* Global Reset */
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+/* Button Style */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
