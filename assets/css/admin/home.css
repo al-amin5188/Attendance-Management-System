@@ -1,0 +1,20 @@
+/* ================ Main Content ==================*/
+.main-content .header {
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.main-content .header h1 {
+    font-size: 22px;
+    color: #2f3640;
+}
+
+.main-content {
+  margin-left: 300px;
+  padding: 20px;
+}

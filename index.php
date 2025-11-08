@@ -8,8 +8,11 @@
 <body>
     <h1>Welcome</h1><br>
     <h2>
-        <a href="auth/register.php"> Registration</a>
-        <a href="auth/login.php">Login</a>
+        <a href="auth/register.php"> Registration</a><br>
+        <a href="auth/login.php">Login</a><br>
+        <a href="test.php">Test</a><br>
+        <a href="./dashboard/admin-dashboard.php">Admin Dashboard</a><br>
+         <a href="./dashboard/teacher-dashboard.php">Teacher Dashboard</a><br>
     </h2>
 </body>
 </html>
