@@ -33,8 +33,8 @@ if (isset($_POST['register'])) {
     <title>Student Registration</title>
 
     <!-- ========== Start link section ========== -->
-    <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- ========== End link section ========== -->
     
 </head>

@@ -21,7 +21,7 @@
     <a href="admin-dashboard.php?page=manage-course">Manage Courses</a>
     <a href="admin-dashboard.php?page=manage-teacher">Teacher</a>
     <a href="admin-dashboard.php?page=attendance">Attendance</a>
-    <a href="#">Logout</a>
+    <a href="../auth/logout.php">Logout</a>
   </div>
 
   <?php

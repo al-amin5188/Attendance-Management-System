@@ -39,7 +39,7 @@ if (isset($_GET['token'])) {
     <title>Reset Password</title>
 
     <!-- ========== Start link section ========== -->
-    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/form.css">
     <!-- ========== End link section ========== -->
 

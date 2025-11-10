@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Management System</title>
+  <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    <h1>Welcome</h1><br>
-    <h2>
-        <a href="auth/register.php"> Registration</a><br>
-        <a href="auth/login.php">Login</a><br>
-        <a href="test.php">Test</a><br>
-        <a href="./dashboard/admin-dashboard.php">Admin Dashboard</a><br>
-         <a href="./dashboard/teacher-dashboard.php">Teacher Dashboard</a><br>
-    </h2>
+  <div class="container">
+    <h1>Attendance Management System</h1>
+    <p>This system helps manage student and employee attendance easily and efficiently.</p>
+
+    <div class="buttons">
+      <a href="./auth/login.php" class="btn">Login</a>
+      <a href="./auth/register.php" class="btn">Register</a>
+    </div>
+  </div>
 </body>
 </html>

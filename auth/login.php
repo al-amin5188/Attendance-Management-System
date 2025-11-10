@@ -18,11 +18,11 @@ if (isset($_POST['login'])) {
 
     
         if ($user['role'] == 'admin') {
-            header("Location: ../dashboard/dashboard-admin.php");
+            header("Location: ../dashboard/admin-dashboard.php?page=admin");
         } elseif ($user['role'] == 'teacher') {
-            header("Location: ../dashboard/dashboard-teacher.php");
+            header("Location: ../dashboard/teacher-dashboard.php");
         } elseif ($user['role'] == 'student') {
-            header("Location: ../dashboard/dashboard-student.php");
+            header("Location: ../dashboard/student-dashboard.php");
         }
         exit();
     } else {
@@ -37,8 +37,9 @@ if (isset($_POST['login'])) {
     <title>Login</title>
 
     <!-- ========== Start link section ========== -->
-    <link rel="stylesheet" href="../assets/css/global.css">
+    
     <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- ========== End link section ========== -->
 
 </head>
